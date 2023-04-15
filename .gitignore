@@ -1,1 +1,8 @@
 createPost.py
+postFormat.py
+merge.bat
+.gitignore
+__pycache__/postFormat.cpython-39.pyc
+__pycache__/postFormat.cpython-310.pyc
+raw_text_posts/this is a test.txt
+test.py
