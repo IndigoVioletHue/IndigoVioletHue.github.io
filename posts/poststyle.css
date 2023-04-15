@@ -30,6 +30,7 @@ min-width:800px;
 word-wrap: break-word;
 margin: 0 auto;
 text-align:center;
+z-index: -1;
 }
 
 html {
@@ -52,4 +53,25 @@ text-decoration: none;
 font-style: normal;
 text-transform: none;
 
+}
+
+div#commentWrapper {
+	background-color: white;
+	border:solid;
+	width:800px;
+	float:bottom;
+	margin: 0 auto;
+	text-align:center;
+}
+
+#commentSubmit {
+color: rgb(0, 0, 0); font-size: 16px; line-height: 16px; padding: 9px; border-radius: 0px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(196, 196, 196) 0%, rgb(168, 168, 168) 100%); box-shadow: rgba(0, 0, 0, 0) 5px 5px 15px 5px; border: 0px solid rgb(28, 110, 164); display: inline-block;}
+#commentSubmit:hover {
+background: #C4C4C4; }
+
+#comment{
+	padding:9px;
+	height:34px;
+	margin:0;
+	width:80%;
 }
