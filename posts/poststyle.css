@@ -1,0 +1,53 @@
+#topBarDiv {
+position:absolute;
+width:100%;
+top:0;
+left:0;
+height:10%;
+background:lightgray;
+}
+h1#title{
+	position:relative;
+	left:5%;
+	width:300px;
+	
+}
+h1:hover#title{
+	cursor: pointer;
+}
+
+
+div#contentWrapper {
+top:11%;
+position:relative;
+border:solid;
+padding:10px;
+height:89%;
+background-color:white;
+max-width:800px;
+min-width:800px;
+word-wrap: break-word;
+margin: 0 auto;
+text-align:center;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+	background-image: url("../images/background.png");
+
+}
+
+p {
+	display:relative;
+font-size: 17px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+text-transform: none;
+}
