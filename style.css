@@ -1,0 +1,70 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#topBarDiv {
+position:absolute;
+width:100%;
+top:0;
+left:0;
+height:10%;
+background:lightgray;
+}
+h1#title{
+	position:relative;
+	left:5%;
+	width:300px;
+	
+}
+h1:hover#title{
+	cursor: pointer;
+}
+
+div#contentWrapper {
+top:11%;
+position:relative;
+border:solid;
+padding:10px;
+height:89%;
+background-color:white;
+}
+body{
+	background-image: url("images/background.png");
+	
+}
+
+div.content{
+	border:solid;
+	background:lightgray;
+	margin:10px auto;
+	overflow-x:clip;
+}
+div:hover.content{
+	background:gray;
+	cursor:pointer;
+}
+
+p.contentSubtext{
+	position:relative;
+	left:5%;
+	font-family: "Lucida Console", Monaco, monospace;
+font-size: 17px;
+color: #000000;
+font-weight: 400;
+font-variant: small-caps;
+
+}
+
+h3.contentHeader{
+	position:relative;
+	left:5%;
+}
+p.date{
+	position:relative;
+	left:90%;
+	font-size: 17px;
+	color: #000000;
+	font-weight: 400;
+}
+
