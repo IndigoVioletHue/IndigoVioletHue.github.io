@@ -24,14 +24,27 @@
 
 </div>
 <div id="commentWrapper">
-	<form> 
+	<form id="comment-form"> 
 		<label for="comment"> Comment:</label>
 		<input type="text" id="comment" name="comment"> 
-		<button type="submit" id="commentSubmit" action="addComment();"> Submit </button> 
+		<input type="hidden" name="id" value="6">
+		<input type="submit" id="commentSubmit"> 
 	</form>
 	<div id="comments"> <p> <b> Anonymous </b> said "Content" at <i> Time </i>
-
-			<i id="End"></i>
+		<?php
+		// Open the CSV file for reading
+		$file = fopen('comments.csv', 'r');
+	
+		// Loop through the comments and display them on the page
+		while (($data = fgetcsv($file)) !== false) {
+			if ($data[3] == 6){
+			echo '<p> <b>' .$data[0]. </b> said "'.$data[1].'" at <i> '.$data[2].' </i>';
+			}
+		}
+	
+		// Close the CSV file
+		fclose($file);
+		?>
 	</div>
 
 </div>
