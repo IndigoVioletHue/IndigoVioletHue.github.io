@@ -24,13 +24,13 @@
 
 </div>
 <div id="commentWrapper">
-	<form id="comment-form"> 
+	<form id="comment-form" action="addComment.php"> 
 		<label for="comment"> Comment:</label>
 		<input type="text" id="comment" name="comment"> 
 		<input type="hidden" name="id" value="6">
 		<input type="submit" id="commentSubmit"> 
 	</form>
-	<div id="comments"> <p> <b> Anonymous </b> said "Content" at <i> Time </i>
+	<div id="comments"> <p> <b> Anonymous </b> said "Content" at <i> Time </i> </p>
 		<?php
 		// Open the CSV file for reading
 		$file = fopen('comments.csv', 'r');
